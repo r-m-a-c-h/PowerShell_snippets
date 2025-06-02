@@ -1,0 +1,2 @@
+﻿Get-StoredCredential
+cmdkey /list

@@ -1,0 +1,7 @@
+﻿TargetVMName,NewIPAddress,SubnetMask,Gateway,Hostname
+vmw-ubuntu.24.4-01,,,,
+vmw-ubuntu.24.4-02,,,,
+vmw-ubuntu.24.4-03,,,,
+vmw-ubuntu.24.4-04,,,,
+vmw-ubuntu.24.4-05,,,,
+vmw-ubuntu.24.4-ansible-host,,,,
