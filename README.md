@@ -96,3 +96,14 @@ Windows_Hyper_V Off   0           0                 00:00:00 Operating normally 
 PS C:\Windows\system32> Add-VMGpuPartitionAdapter -VMName "Windows_Hyper_V"
 PS C:\Windows\system32> Set-VMGpuPartitionAdapter -VMName "Windows_Hyper_V" -MinPartitionVRAM 512 -MaxPartitionVRAM 4096 -OptimalPartitionVRAM 2048
 ```
+
+Get GPU name
+```
+Get-PnpDevice -Class Display | Select-Object FriendlyName
+
+FriendlyName
+------------
+Intel(R) Iris(R) Xe Graphics
+Microsoft Remote Display Adapter
+NVIDIA GeForce RTX 4060 Laptop GPU
+```
